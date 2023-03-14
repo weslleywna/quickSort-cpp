@@ -3,7 +3,11 @@ Algoritmo de QuickSort em C++
 
 O QuickSort adota a estratégia de divisão e conquista. 
 
-A estratégia consiste em rearranjar as chaves de modo que as chaves "menores" precedam as chaves "maiores". Em seguida o QuickSort ordena as duas sublistas de chaves menores e maiores recursivamente até que a lista completa se encontre ordenada. Os passos são:
+A ideia do QuickSort é ordenar duas sublistas de maneira recursiva até que a lista completa se encontre ordenada.
+
+O caso base da recursão são as listas de tamanho zero ou um, que estão sempre ordenadas. O processo é finito, pois a cada iteração pelo menos um elemento é posto em sua posição final e não será mais manipulado na iteração seguinte.
+
+Os passos são:
 
 - Escolha um elemento da lista, denominado pivô;
 
